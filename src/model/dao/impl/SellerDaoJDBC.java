@@ -16,7 +16,7 @@ import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
 
-public  class SellerDaoJDBC implements SellerDao{
+public class SellerDaoJDBC implements SellerDao{
 	
 	private Connection  conn;
 	
