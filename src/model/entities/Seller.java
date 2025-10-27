@@ -16,10 +16,10 @@ public class Seller implements Serializable{
 	
 	private Department department;
 	
-	public Seller() {
+	public Seller(Object object, String string, String string2, java.sql.Date date, double d, Department department2) {
 	}
 
-	public Seller(Integer id, String name, String email, Date birthDate, Double baseSalary) {
+	public Seller() {
 		
 		this.id = id;
 		this.name = name;
